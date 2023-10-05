@@ -1,7 +1,10 @@
 const { MongoClient } = require("mongodb");
 const dotenv = require("dotenv");
+
 dotenv.config();
+
 const database = process.env.MONGO_DB_NAME;
+
 if (!process.env.MySQL_DB_HOST) {
   let usemongo = true;
   if (
@@ -21,10 +24,10 @@ if (!process.env.MySQL_DB_HOST) {
 
 const client = new MongoClient(conString) ;
 
-async function dbConnect() {
+async function dbConnect(collectionName) {
     let result = await client.connect() ;
     db = result.db(database) ;
-    return db.collection('accounts') ;
+    return db.collection(collectionName) ;
 }
 
 
