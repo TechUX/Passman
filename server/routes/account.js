@@ -1,6 +1,8 @@
-const express = require("express");
-const dbConnect = require("../component/dbconfig")
+const express = require("express") ;
+const dbConnect = require("../component/dbconfig") ;
+const dotenv = require("dotenv") ;
 
+dotenv.config()
 
 var router = express.Router();
 
@@ -17,13 +19,8 @@ router.post("/login", (req, resp) => {
       .status(400)
       .json({ status: "error", msg: "email or password must not empty" });
   } else {
-    // console.log("Data recieved");
-    // console.log(email) ;
-    // console.log(password) ;
 
-    // resp.send("OK") ;
-
-    dbConnect()
+    dbConnect(process.env.account)
       .then((database) => {
         database
           .findOne({ email: email })
