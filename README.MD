@@ -42,7 +42,7 @@ npm start
 | Name | Role | Other |
 |------|-------|---|
 | Devesh Singh | Backend Development| |
-| Eva Sabeeh | Frontend Development| Interface Design |
+| Eva Sabeeh | *None*| *None* |
 <!-- | Akshay Kumar | Documentation & Testing|
 | Saurav Verma | Documentation & Testing|
 | Saurav Verma | Documentation & Testing| -->
