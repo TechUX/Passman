@@ -1,0 +1,14 @@
+# Ignore node_modules directory
+node_modules
+
+# Ignore .git directory
+.git
+
+# Ignore .vscode directory
+.vscode
+
+# Individual files and directory to ignore
+
+temp.txt
+DatabaseDesign.md
+Practical
