@@ -6,7 +6,7 @@ dotenv.config()
 
 var router = express.Router();
 
-router.get((_,resp)=>{
+router.get("/",(_,resp)=>{
     resp.send({status:"ok"}) ;
 })
 
@@ -68,18 +68,6 @@ router.post("/save",(req,resp)=>{
     })
 })
 
-
-router.get("/test",(req,resp)=>{
-
-    let data = req.query ;
-
-    if ( !data.name){
-        resp.send("Not OK") ;
-    } else {
-        resp.send("ok") ;
-    }
-    
-})
 
 function slug(title) {
     const slug = title
