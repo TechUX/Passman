@@ -43,13 +43,19 @@ npm start
 |------|-------|---|
 | Devesh Singh | Backend Development| |
 | Eva Sabeeh | *None*| *None* |
+|Jai Anshul Gautam| Research Paper|*N/A*|
+|Nandini Sharda|Research Paper|*N/A*|
+|Anand Kumar|*None*|*None*|
 <!-- | Akshay Kumar | Documentation & Testing|
 | Saurav Verma | Documentation & Testing|
 | Saurav Verma | Documentation & Testing| -->
 
 ## Code and Implementation
-All of our code is available at [https://github.com/TechUX/Passman](https://github.com/Tech) <br>
+All of our code is available at [https://github.com/TechUX/Passman][def] <br>
 Our implementation can be found here : [https://techux.github.io/Passman/](https://techux.github.io/Passman/)
 
 ## License
 This project is licensed under the MIT license. See the LICENSE file for more details.
+
+
+[def]: https://github.com/Tech
